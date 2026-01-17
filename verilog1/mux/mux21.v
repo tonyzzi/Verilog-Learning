@@ -7,4 +7,4 @@ module mux21 (
     // 當 sel 為 0 時輸出 a，當 sel 為 1 時輸出 b
     assign y = (sel == 1'b0) ? a : b;
 
-endmodule
+endmodule  
